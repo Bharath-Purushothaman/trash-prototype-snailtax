@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "653126765687",
+    "firebase_url": "https://snailtax-14ace.firebaseio.com",
+    "project_id": "snailtax-14ace",
+    "storage_bucket": "snailtax-14ace.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653126765687:android:56b2ea5000babbb9",
+        "android_client_info": {
+          "package_name": "com.bharath.admin.snailtaxe_filingindia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653126765687-2mfhqrm0usnnolg7jbqit4qljhv4asvh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWDdhYSGSWKXBY6CFM7nIoOrpee76lj5Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bharath.admin.snailtaxe_filingindia.Registration">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="17dp"
+        android:visibility="gone" />
+    <Button
+        android:id="@+id/rlogin"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp"
+        android:background="@drawable/rounded_edittext"
+        android:textColor="@color/dark_green"
+        android:text="@string/login" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rlogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="23dp"
+        android:textAlignment="center"
+        android:text="Already have a account? Just login" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="email address"
+        app:hintEnabled="true">
+
+        <EditText
+            android:id="@+id/remail"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:drawablePadding="30dp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="30dp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/register12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView4"
+        android:layout_alignEnd="@+id/rlogin"
+        android:layout_marginBottom="38dp"
+        android:layout_marginEnd="56dp"
+        android:background="@drawable/rounded_edittext"
+        android:textColor="@color/dark_green"
+        android:text="Register" />
+
+    <Button
+        android:id="@+id/rreset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/register12"
+        android:layout_alignBottom="@+id/register12"
+        android:layout_alignEnd="@+id/til3"
+        android:background="@drawable/rounded_edittext"
+        android:textColor="@color/light_red"
+        android:layout_marginEnd="57dp"
+        android:text="Reeset" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/til1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Password"
+        app:hintEnabled="true"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:id="@+id/rpassword"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/remail"
+            android:layout_below="@+id/remail"
+            android:backgroundTint="@color/Transparent"
+            android:drawablePadding="30dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:paddingLeft="30dp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/til2"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Re-Enter Password"
+        app:hintEnabled="true"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:id="@+id/rrepassword"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/rpassword"
+            android:layout_below="@+id/rpassword"
+            android:layout_marginTop="26dp"
+            android:backgroundTint="@color/Transparent"
+            android:drawablePadding="30dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:paddingLeft="30dp" />
+    </android.support.design.widget.TextInputLayout>
+</RelativeLayout>
